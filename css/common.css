@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+.radius6All {
+	/*全部都是圆角*/
+    -moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: f6px;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border:0px;
+	/*圆角*/
+}
+.radius6Top {
+	/*仅上方为圆角*/
+    -moz-border-radius-topleft: 6px;
+	-khtml-border-top-left-radius: 6px;
+	-webkit-border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	-moz-border-radius-topright: 6px;
+	-khtml-border-top-right-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	border-top-right-radius: 6px;/*圆角*/
+}
+.radiu6Bottom {
+	/*仅下方为圆角*/
+    -moz-border-radius-bottomleft: 6px;
+	-khtml-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-left-radius:6px;
+	border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-khtml-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	border-bottom-right-radius: 6px;/*圆角*/
+}
+
+.radius10All {
+	/*全部都是圆角*/
+    -moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border:0px;/*圆角*/
+}
+.radiu10Top {
+	/*仅上方为圆角*/
+    -moz-border-radius-topleft: 10px;
+	-khtml-border-top-left-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-khtml-border-top-right-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	border-top-right-radius: 10px;/*圆角*/
+}
+.radiu10Bottom {
+	/*仅下方为圆角*/
+    -moz-border-radius-bottomleft: 10px;
+	-khtml-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-khtml-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	border-bottom-right-radius: 10px;/*圆角*/
+}
+.jbYellow {/*黄色渐变*/
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 252, 0, .9)), to(#de5c05));
+	background: -moz-linear-gradient(top, rgba(255, 252, 0, .9), #de5c05);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#de5c05', endColorstr='#fffc00');
+	color:#8e1801;
+	border:1px #df8b01 solid;
+}
+.jbGray {/*灰色渐变*/
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(221, 232, 235, .9)), to(#ffffff));
+	background: -moz-linear-gradient(top, rgba(221, 232, 235, .9), #ffffff);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfe9ec', endColorstr='#ffffff');
+}
+.jbGray2 {/*灰色渐变*/
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .9)), to(#cecece));
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, .9), #cecece);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#cecece');
+}
+.jbGray3 {/*灰色渐变*/
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .9)), to(#f1f1f1));
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, .9), #f1f1f1);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#f1f1f1');
+}
+.jbBlue {/*蓝色渐变*/
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(219, 232, 239, .9)), to(#ffffff));
+	background: -moz-linear-gradient(top, rgba(219, 232, 239, .9), #ffffff);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#de5c05', endColorstr='#ffffff');
+	color:#fff;
+}
+.jbBlue2 {/*logo背景深蓝渐变*/
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 110, 176, .9)), to(#012136));
+	background: -moz-linear-gradient(top, rgba(2, 110, 176, .9), #012136);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#026eb0', endColorstr='#012136');
+	color:#fff;
+}
+.jbBlue3 {/*主导航深蓝渐变*/
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 135, 187, .9)), to(#034a68));
+	background: -moz-linear-gradient(top, rgba(6, 135, 187, .9), #034a68);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0687bb', endColorstr='#034a68');
+	color:#fff;
+}
+.jbBlue4 {/*底部导航深蓝渐变*/
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 56, 133, .9)), to(#079fd1));
+	background: -moz-linear-gradient(top, rgba(0, 56, 133, .9), #079fd1);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003885', endColorstr='#079fd1');
+	color:#fff;
+}
+.jbBlue5 {/*底部导航深蓝渐变*/
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 136, 210, .9)), to(#0058a2));
+	background: -moz-linear-gradient(top, rgba(1, 136, 210, .9), #0058a2);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0188d3', endColorstr='#0058a2');
+	color:#fff;
+}
+.jbGreen1 {/*底部导航深蓝渐变*/
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(248, 251, 242, .9)), to(#f7fdf3));
+	background: -moz-linear-gradient(top, rgba(248, 251, 242, .9), #f7fdf3);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8fbf2', endColorstr='#f7fdf3');
+	color:#fff;
+}
+.jbYellow1 {/*底部导航深蓝渐变*/
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(249, 153, 110, .9)), to(#eb3414));
+	background: -moz-linear-gradient(top, rgba(249, 153, 110, .9), #eb3414);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9996e', endColorstr='#eb3414');
+	color:#fff;
+	border:1px #df8b01 solid;
+}
+.jbGreen2 {/*底部导航深蓝渐变*/
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(182, 234, 172, .9)), to(#4abc3d));
+	background: -moz-linear-gradient(top, rgba(182, 234, 172, .9), #4abc3d);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b6eaac', endColorstr='#4abc3d');
+	color:#fff;
+}
+.jbWhite{/*底部导航深蓝渐变*/
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .9)), to(rgba(255, 255, 255, .3)));
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, .9),to(rgba(255, 255, 255, .3)));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#fff');
+}
+.text-light {/*外发光白色*/
+	text-shadow:0 0 20px #fff;
+	color:#fff;
+	background:#333;
+}
+.line {/*白色线*/
+	background:#069ac8;
+	width:100%;
+	height:1px;
+	margin:1px 0 0 0;
+	overflow:hidden;
+}
+.noBorder {
+	border:0px;
+	background:none;
+}
+.noMargin {
+	margin:0px;
+}
+.ty {/*投影*/
+ filter:progid:DXImageTransform.Microsoft.Shadow(color=#000, direction=120, strength=4);/*ie*/
+	-moz-box-shadow: 2px 2px 20px #000;/*firefox*/
+	-webkit-box-shadow: 2px 2px 10px #000;/*safari或chrome*/
+	box-shadow:0px 1px 8px #333;/*opera或ie9*/
+}
+.ty2 {/*投影*/
+ filter:progid:DXImageTransform.Microsoft.Shadow(color=#000, direction=120, strength=4);/*ie*/
+	-moz-box-shadow: 2px 2px 6px #000;/*firefox*/
+	-webkit-box-shadow: 2px 2px 6px #000;/*safari或chrome*/
+	box-shadow:0px 4px 6px 2px #000;/*opera或ie9*/
+}
+.ty3 {/*投影*/
+ filter:progid:DXImageTransform.Microsoft.Shadow(color=#000, direction=120, strength=4);/*ie*/
+	-moz-box-shadow: 2px 2px 6px #000;/*firefox*/
+	-webkit-box-shadow: 2px 2px 6px #000;/*safari或chrome*/
+	box-shadow:0px 4px 6px 2px #000;/*opera或ie9*/
+}
+.ty4 {/*投影*/
+ filter:progid:DXImageTransform.Microsoft.Shadow(color=#fff, direction=90, strength=4);/*ie*/
+	-moz-box-shadow: 4px 4px 4px #fff;/*firefox*/
+	-webkit-box-shadow: 4px 4px 4px #fff;/*safari或chrome*/
+	box-shadow:0px 0px 4px 4px #fff;/*opera或ie9*/
+}
+/*.textShadow1{text-shadow: 0 -1px 0px #012448;  }
+*/.textShadow2{text-shadow: 1px 1px 3px #000;  }
+
+.noPadding {
+	padding:0px;
+}
+.borderTopBlack {
+	border-top:1px #000 solid;
+}
+.paddingTop10 {
+	padding-top:10px;
+}
+.paddingBottom {
+	padding-bottom:10px;
+}
+.borderTopGray {
+	border-top:1px #ccc solid;
+}
+.borderTopWhite {
+	border-top:1px #fff solid;
+}
+.borderRightGray {
+	border-right:1px #ccc solid;
+}
+.borderRightWhite {
+	border-right:1px #fff solid;
+}
+.borderBottomGray {
+	border-bottom:1px #ccc solid;
+}
+.borderBottomWhite {
+	border-bottom:1px #fff solid;
+}
+.borderLeftGray {
+	border-left:1px #ccc solid;
+}
+.borderLeftWhite {
+	border-left:1px #fff solid;
+}
+.blur {	
+    filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+    
+    -webkit-filter: blur(10px); /* Chrome, Opera */
+       -moz-filter: blur(10px);
+        -ms-filter: blur(10px);    
+            filter: blur(10px);
+    
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); /* IE6~IE9 */
+}

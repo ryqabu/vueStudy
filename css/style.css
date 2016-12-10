@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* 注：为避免与系统原有样式冲突，新增的样式前缀全部加hn_*/
+body, td, th {font-size: 14px;color: #333; font-family:"黑体"}
+html {background:#f6f6f6;}
+body {padding:0px;margin:0px;}
+body, html {background: #f6f6f6;background-size: cover;}
+a {text-decoration:none;color:#000; font-size:14px;}
+a.no {-khtml-opacity: .5;-moz-opacity: 0.5;}
+div, ul, li, p, h1, h2, h3, h4, h5, h6, img, input, button, select {margin:0px;padding:0px;list-style:none; -webkit-appearance:none; border-radius:0;}
+img {border:0}
+a.no {color:#CCC}
+.red{ color:#f00;}
+.blue{ color:#4593d1;}
+.blue2{ color:#1355ab;}
+.yellow{ color:#f19601;}
+.green{ color:#02b328;}
+ul.padding10{ padding:10px;}
+ul.padding20{ padding:20px;}
+ul.padding1{ padding:5px;}
+ul.padding2{ padding:10px 5px;}
+.j_big{ font-size:16px; font-weight:bold; color:#666; }
+.j_red{ color:#f30000;}
+.j_blue{ color:#4590c9;}
+.j_underLine{ text-decoration:underline}
+.j_height1{ width:100%; float:left; height:10px;}
+.j_height2{ width:100%; float:left; height:20px;}
+.j_height3{ width:100%; float:left; height:30px;}
+.j_en0{ font-family:Arial, Helvetica, sans-serif;}
+.j_en{ font-family:Arial, Helvetica, sans-serif; font-size:18px;}
+
+
+
+.j_step{ width:100%; float:left; margin: 10px auto 30px auto;}
+.j_step_line{ width:100%; float:left; margin-top:20px;}
+.j_step_line ul{ padding:0 30px;}
+.j_step_line ul li{ float:left; position:relative;}
+.j_step_line1{ width:100%; float:left; height:3px; background:#7d7d7d;}
+.j_step_line ul li span.j_step_dot1{ width:8px; height:8px; border-radius:10px; border:5px #7d7d7d solid; background:#fff; position:absolute; left:0; top:-8px; }
+.j_step_line ul li span.j_step_dot2{ width:8px; height:8px; border-radius:10px; border:5px #7d7d7d solid; background:#fff; position:absolute; left:50%; top:-8px; margin-left:-5px;}
+.j_step_line ul li span.j_step_dot3{ width:8px; height:8px; border-radius:10px; border:5px #7d7d7d solid; background:#fff; position:absolute; right:0; top:-8px;}
+
+.j_step_line ul li span.j_step_text1{ left:-20px; bottom:-24px; position:absolute; font-size:12px; color:#949494}
+.j_step_line ul li span.j_step_text2{ left:50%; margin-left:-27px; bottom:-24px; position:absolute; font-size:12px; color:#949494}
+.j_step_line ul li span.j_step_text3{ right:-15px; bottom:-24px; position:absolute; font-size:12px;  color:#949494}
+
+.j_step_line ul li.on .j_step_line1{ background:#389ce7}
+.j_step_line ul li.on span.j_step_dot1{  border:5px #389ce7 solid; background:#fff; }
+.j_step_line ul li.on span.j_step_text1{ color:#389ce7;}
+
+.j_step_line ul li.on span.j_step_dot2{  border:5px #389ce7 solid; background:#fff; }
+.j_step_line ul li.on span.j_step_text2{ color:#389ce7;}
+
+.j_step_line ul li.on span.j_step_dot3{  border:5px #389ce7 solid; background:#fff; }
+.j_step_line ul li.on span.j_step_text3{ color:#389ce7;}
+
+.j_list1{ width:100%; float:left; margin-top:0px;}
+.j_list1>ul{ padding:6px 10px; border:1px #dcdcdc solid; overflow:hidden; background:#fff;}
+.j_list1>ul li{ width:100%; float:left; border-bottom:1px #ccc dotted; padding:6px 0;}
+.j_list1>ul li:last-child{ border-bottom:none;}
+.j_list1>ul li.noLine{ border-bottom:none;}
+
+.j_list1>ul li h5{ width:35%; float:left; font-size:14px; color:#333; padding:5px 0; font-weight:normal}
+.j_list1>ul li ul{ width:65%; float:left; font-size:14px; padding:5px 0; color:#434343}
+.j_list1>ul li ul input{ border:none; background:none; font-size:14px; color:#c7c7c7; width:100%; float:left;  border-radius:0;}
+.j_list1>ul li ul span.j_arrow1{ float:right; background:url(../images/arrow1.png) right no-repeat; background-size:10px 15px; margin-right:0px;}
+.j_list1>ul li ul span.j_arrow1 a{ padding-right:10px; color:#4590c9}
+.j_list1>ul li ul input.j_code{background:#44a2c9; border-radius:4px; padding:5px 10px; color:#fff; float:right; width:auto;}
+.j_list1>ul li ul input.j_code2{background:#ddd; border-radius:4px; padding:5px 10px; color:#999; float:right; width:auto;}
+.j_list1>ul li ul label{ font-family:Tahoma, Geneva, sans-serif; float:left; margin-right:10px;}
+.j_list1>ul li ul input[type='radio']{ width:20px; height:20px; vertical-align:middle; background:url(../images/radio22.png); background-size:20px 20px; margin-top:-2px;}
+.j_list1>ul li ul input[type='radio']:checked{background:url(../images/radio11.png); background-size:20px 20px;}
+
+.j_list1>ul li ul button{background:#44a2c9; border-radius:4px; padding:5px 10px; color:#fff; float:right; width:auto; -webkit-appearance:none; border:none; font-size:14px; }
+
+
+.j_list1>ul li ul select{ background: url(../images/arrow2.png) right no-repeat; background-size:14px 9px; width:98%; border:none; font-size:14px; color:#434343;}
+
+
+.j_list1>ul li ul input.j_dateInput{ background: url(../images/rl40.png) right no-repeat; background-size:20px 20px; color:#ccc;}
+
+
+.j_text{ width:100%; float:left; margin-top:20px;}
+.j_text label{ font-family:Tahoma, Geneva, sans-serif;}
+.j_text input[type='checkbox']{ width:13px; height:13px; background:url(../images/check.png); background-size:13px 13px; border:none; margin-top:3px; vertical-align:middle; margin-right:10px; float:left }
+.j_text input[type='checkbox']:checked{ background:url(../images/checkOn.png); background-size:13px 13px; }
+
+.j_text p{ float:left; margin-left:10px; width:92%; padding:0; margin:0; color:#4590c9;}
+.j_text p a{ text-decoration:underline; font-weight:normal;color:#4590c9;} 
+
+.j_bt{ width:100%; float:left; margin-top:20px;}
+.j_bt ul{ padding:0 20px; text-align:center}
+.j_bt ul input{ width:100%; background:#dc0817; height:40px; border:none; font-size:15px; color:#fff; font-weight:bold; border-radius:4px;}
+
+.j_result{ width:100%; float:left; margin:10px 0;}
+.j_result ul{ padding:0px 0;}
+.j_result ul p { margin:20px 0;}
+.j_result ul p .j_big{line-height:20px;}
+
+.j_tip{ width:100%; float:left; margin-top:10px;}
+.j_tip ul{ padding:10px;}
+.j_tip h5{ font-size:15px; line-height:26px;}
+.j_tip p{ color:#666; line-height:24px; font-size:14px; text-indent:30px;}
+.j_tip p a{ text-align:center; color:#389ce7; text-decoration:underline;}
+
+.j_list1>ul li div.j_tip2{ width:100%; float:left; width:100%;}
+.j_list1>ul li div.j_tip2 ul{ background:#f8f1ed; border-radius:2px; font-size:14px; color:#928283;  width:100%; text-align:center; padding:5px 0;}
+
+
+.j_mask{ display:none; width:100%; height:100%; position:fixed;z-index:9; left:0; top:0; background:#000;filter:alpha(opacity=50); /*IE滤镜，透明度50%*/-moz-opacity:0.5; /*Firefox私有，透明度50%*/opacity:0.5;}
+.j_tck_box{ display:none;width:100%; height:100%; position:fixed; z-index:10; left:0; top:0;}
+.j_tck_box>ul{ padding:10px;}
+.j_tck1{ width:100%;}
+.j_tck1 ul{ background:#fff; border:1px #999 solid; padding:20px 10px; border-radius:5px;}
+.j_tck1 ul h5{ text-align:center; font-size:18px; border-bottom:1px #999 dotted; padding-bottom:10px; margin-bottom:10px; font-weight:bold;}
+.j_tck1 ul ul{ border:none; padding:0; overflow-y:scroll}
+.j_tck1 ul ul p{ font-size:15px; line-height:20px; margin-top:10px;}
+.j_tck1 ul input{ width:100%;background:#dc0817; height:40px; border:none; font-size:15px; color:#fff; font-weight:bold; border-radius:4px;}
+
+.j_tck2{ width:100%;}
+.j_tck2 ul{ background:#fff; border:1px #999 solid; padding:20px 10px; border-radius:5px;}
+.j_tck2 ul h5{ text-align:center; font-size:18px; border-bottom:1px #999 dotted; padding-bottom:10px; margin-bottom:10px; font-weight:bold;}
+.j_tck2 ul ul{ border:none; padding:0; overflow-y:auto}
+.j_tck2 ul ul p{ font-size:15px; line-height:20px; margin-top:10px; text-indent:30px;}
+.j_tck2 ul input{ width:100%;background:#dc0817; height:40px; border:none; font-size:15px; color:#fff; font-weight:bold; border-radius:4px; margin-top:20px;}
+
+.j_list2{ width:100%; float:left;}
+.j_list2>ul{ padding:6px 10px; border:0px #dcdcdc solid; border-left:none; border-right:none; overflow:hidden; background:#f8f9f9;}
+.j_list2>ul li{ width:100%; float:left; border-bottom:1px #ccc dotted; padding:6px 0;}
+.j_list2>ul li:last-child{ border-bottom:none;}
+.j_list2>ul li.noLine{ border-bottom:none;}
+.j_list2>ul li ul{ width:100%; float:left; padding:6px 0;}
+.j_list2>ul li ul h4{ font-size:16px; font-weight:normal; margin-left:10px;}
+.j_list2>ul li ul h5{ font-size:14px; font-weight:normal; margin-left:10px;}
+
+.j_list3{ width:100%; float:left;}
+.j_list3>ul{ padding:6px 10px; border:1px #e0e0e0 solid; border-left:none; border-right:none; overflow:hidden; background:#fff;}
+.j_list3>ul li{ width:100%; float:left; border-bottom:1px #e0e0e0 dotted; padding:6px 0;}
+.j_list3>ul li:last-child{ border-bottom:none;}
+.j_list3>ul li ul{ float:left; font-size:14px; color:#333; padding:5px 0; font-weight:normal; width:100%; margin:0;}
+.j_list3>ul li ul h6{ float:right;margin:0; padding:0;font-size:14px; font-weight:normal; line-height:25px; color:#686868; margin-right:15px;}
+.j_list3>ul li ul span.j_arrow1{ float:right; margin-top:5px;width:10px; height:15px; background:url(../images/arrow1.png); background-size:10px 15px; margin-right:5px; }
+
+.j_list3>ul li ul b{ float:left; width:25px; height:25px; margin-left:5px;}
+.j_list3>ul li ul h5{ float:left; font-weight:normal; margin-left:5px; font-size:14px; line-height:25px; color:#333;}
+
+.j_list3>ul li a{ float:left; width:100%; height:100%;}
+
+.j_info{ background:#e31421; width:100%; float:left;}
+.j_info>ul{ position:relative; width:100%; float:left; overflow:hidden; height:120px;}
+.j_info>ul>div{ position:absolute; width:320px; left:50%; margin-left:-160px;height:100px;}
+.j_info>ul>div>ul{ position: relative;}
+.j_info>ul>div>ul span.j_tx{ width:78px; height:78px; position:absolute; z-index:2; left:10px; top:20px;}
+.j_info>ul>div>ul span.j_line1{width:224px; height:15px;position:absolute; z-index:1; left:80px; top:70px; background:url(../images/line1.png); background-size:224px 15px;}
+.j_info>ul>div>ul ul{ float:left; margin-left:100px; color:#fff; margin-top:50px;}
+.j_info>ul div a{ width:100%;   color:#fff; height:120px; }
+.j_info>ul>div>ul ul .j_en{ font-size:24px;}
+
+.j_title1{ width:100%; float:left;}
+.j_title1 h5{ line-height:30px; font-size:14px; color:#333; font-weight:normal; margin-left:5px;}
+.j_date{ display:none;}
+
+.j_list4{ width:100%; float:left;}
+.j_list4 ul { padding:10px 0 0 0; overflow:hidden;  border-bottom:1px #e2e2e2 solid;}
+.j_list4 ul li{ width:50%; float:left; margin-bottom:10px;}
+.j_list4 ul li ul{ padding:5px 0px; text-align:center; font-size:14px; background:none; border:none; color:#a1a1a1; }
+.j_list4 ul li ul.ulLine{ border-right:1px #e2e2e2 solid;}
+.j_list4 ul li ul a{ width:100%; float:left; color:#a1a1a1;}
+
+.j_list4_1 ul li ul.ulLeft{padding-left:10px; text-align:left}
+.j_list4_1 ul li ul p{text-align:left;line-height:18px;}
+.j_list4_1 ul li ul p b{font-family:Arial, Helvetica, sans-serif; font-size:16px;color:#666; font-weight:normal;}
+
+.j_list4_1 ul li ul.ulRight{padding:0;padding-right:10px; text-align:right;}
+
+.j_list4_1 ul li ul.ulRight input.j_bt3{float:none;width:40%; height:28px; margin:9px 4px 0 4px; border-radius:4px; background:#f00; color:#fff;-webkit-appearance:none; border:1px #f00 solid;font-size:14px;}
+.j_list4_1 ul li ul.ulRight input.j_bt4{float:none;width:40%; height:28px;margin:9px 4px 0 4px; border-radius:4px; background:#4590c9; color:#fff;-webkit-appearance:none; border:1px #4590c9 solid; font-size:14px;}
+
+.j_list5{ width:100%; float:left;}
+.j_list5>ul{ padding:10px; overflow:hidden; background:#fff; border:1px #e2e2e2 solid; border-left:none; border-top:none;  border-right:none; border-bottom:1px #e2e2e2 solid}
+.j_list5>ul>p{ width:100%; float:left; margin-bottom:5px; margin-top:5px; border-bottom:0px #e2e2e2 dotted; line-height:20px;}
+.j_list5>ul p span{ float:left; color:#999;font-size:13px;}
+.j_list5>ul p b{ float:right; font-weight:normal; color:#999;font-size:13px;}
+.j_list5>ul ul>li{ width:50%; float:left;}
+.j_list5>ul ul>li>ul{ padding:8px 0; text-align:center; color:#333;}
+.j_list5>ul ul>li>ul .j_en{ color:#e41625}
+.j_list5>ul ul>li>ul p{ text-align:left; font-size:13px; line-height:18px;font-family:Arial, Helvetica, sans-serif; color:#666; float:right; margin-right:13px;}
+
+
+.padding1 div.j_list3>ul{ border:1px #dcdcdc solid;}
+
+div.j_list3_1>ul li{ padding:0px 0;}
+
+.j_bt2{ width:100%; float:left; margin-top:20px;}
+.j_bt2 ul{ padding:0 20px; text-align:center}
+.j_bt2 ul li{ width:50%; float:left;}
+.j_bt2 ul li ul.paddinRight{ padding:0; padding-right:10px}
+.j_bt2 ul li ul.paddinLeft{ padding:0;  padding-left:10px}
+.j_bt2 ul li ul input{ width:100%; background:#dc0817; height:40px; border:none; font-size:15px; color:#fff; font-weight:bold; border-radius:4px;}
+.j_bt2 ul li ul input.bt2{ width:100%; background:#4590c9; height:40px; border:none; font-size:15px; color:#fff; font-weight:bold; border-radius:4px;}
+
+
+.j_norecord{ width:100%; float:left}
+.j_norecord ul{ padding:60px 0; border:1px #ebebeb solid; background:#fff}
+.j_norecord ul p{ text-align:center; color:#bbb;font-size:15px;}
+.j_norecord ul p img{ vertical-align:middle; margin-top:-5px; margin-right:3px; }
+
+.j_sy{ width:100%; float:left; background:#fff; height:600px;}

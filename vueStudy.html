@@ -5,16 +5,66 @@
 	<title>vue.js学习之旅</title>
 	<link rel="stylesheet" type="text/css" href="css/app.css">
 	<script type="text/javascript" src="lib/vue.js"></script>
-	<script type="text/javascript" src="lib/components/components.js"></script>
 </head>
 <body>
 	<div id="test">
-		
+		<div>
+			<span>{{price}}</span>
+			<test-component v-model="price"></test-component>
+		</div>
 	</div>
 
 	<script type="text/javascript">
-		
 
+
+		Vue.component("test-component",{
+			data:function(){
+				return {
+
+				}
+			},
+			template:"<span>\
+				<input  ref='input' v-on:focus='clearZero($event.target.value)' v-bind:value='value' v-on:input='updateCurrent($event.target.value)'>\
+				</span>\
+			",
+			props:{
+				value:{
+					type:Number,
+					default:0
+				}
+			},
+			methods:{
+				updateCurrent:function(value){
+					var sliceIndex = value.trim().length;
+					if(value.indexOf(".")>-1){
+						sliceIndex = value.indexOf(".")+3;
+					}
+					var updateValue = value.trim().slice(0,sliceIndex);
+					if(value !== updateValue){
+						//将修改后的值赋值给原始的input框
+						this.$refs.input.value = updateValue;
+					}
+					//将value值传给父元素
+					this.$emit("input",Number(updateValue));
+				},
+				clearZero:function(value){
+					if(value.trim() == 0){
+						this.$refs.input.value = null;
+					}
+					this.$emit("input",null);
+				}
+			}
+		})
+		
+		var vm = new Vue({
+			el:"#test",
+			data:{
+				price:0	
+			},
+			methods:{
+
+			}
+		});
 
 		
 
